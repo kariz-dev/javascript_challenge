@@ -100,10 +100,16 @@
             ]
         
         // Code kamu di sini, lakukan looping terhadap input di atas
-
+        var jawaban2 = ""// =  Isikan outputnya di sini
+        for(var j = 0; j < input.length; j++){
+            jawaban2 += 
+            `Nomor ID:  ${input[0][0]} <br>
+            Nama Lengkap:  ${input[j][1]} <br>
+            TTL:  ${input[j][2]} ${input[j][3]} <br>
+            Hobi:  ${input[j][4]} <br> <br>`
+        }
 
         
-        var jawaban2 // =  Isikan outputnya di sini
 
         document.getElementById("jawaban2").innerHTML = jawaban2  
 
